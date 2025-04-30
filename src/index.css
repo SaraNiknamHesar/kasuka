@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "./assets/fonts/fontiran.css";
+@font-face {
+  font-family: dana-regular;
+  src: url(assets/fonts/DanaFaNum-Regular.woff);
+
+  font-weight: bold;
+}
+@font-face {
+  font-family: dana-bold;
+  src: url(assets/fonts/DanaFaNum-Bold.woff);
+
+  font-weight: bold;
+}
+
+:root {
+  box-sizing: border-box;
+  /* font-family: dana-regular; */
+}
