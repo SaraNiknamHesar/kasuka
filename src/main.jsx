@@ -1,4 +1,5 @@
 import { StrictMode } from 'react'
+import "/src/assets/js/icons.js";
 import { createRoot } from 'react-dom/client'
 import Header from "./Component/Header/Header.jsx"
 

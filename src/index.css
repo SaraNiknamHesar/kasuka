@@ -1,19 +1,14 @@
 @import "tailwindcss";
-@import "./assets/fonts/fontiran.css";
+
 @font-face {
   font-family: dana-regular;
   src: url(assets/fonts/DanaFaNum-Regular.woff);
-
-  font-weight: bold;
 }
-@font-face {
-  font-family: dana-bold;
-  src: url(assets/fonts/DanaFaNum-Bold.woff);
-
-  font-weight: bold;
-}
-
 :root {
   box-sizing: border-box;
-  /* font-family: dana-regular; */
+  font: dana-regular !important;
+}
+@theme {
+  --color-yelloMain: #ffc451;
+  --color-grey-btn: rgb(52, 58, 64);
 }
